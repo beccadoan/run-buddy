@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -35,6 +36,7 @@ header nav ul li {
     display: inline;
 }
 
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
@@ -45,4 +47,22 @@ footer {
     padding: 40px 35px;
     background: #fce138;
     width: 100%;
+}
+
+footer a {
+    color: #024e76
+}
+
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
 }
